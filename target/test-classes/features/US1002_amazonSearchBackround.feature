@@ -1,22 +1,25 @@
-Feature: US1001 Amazon Search
+Feature: US1002 Amazonda arama icin Backgroun kullanimi
 
-  Scenario: TC01 Kullanici amazonda Nutella aratir
-
+  Background:
     Given kullanici amazon anasayfaya gider
+
+  Scenario: TC04 Kullanici amazonda Nutella aratir
+
+
     When arama kutusuna Nutella yazip enter'a basar
     And Arama sonuclarinin Nutella icerdigini test eder
     Then Sayfayi kapatir
 
 
-  Scenario: TC02 Kullanici amazonda Samsung aratir
-    Given kullanici amazon anasayfaya gider
+  Scenario: TC05 Kullanici amazonda Samsung aratir
+
     When arama kutusuna Samsung yazip enter'a basar
     And Arama sonuclarinin Samsung icerdigini test eder
     Then Sayfayi kapatir
 
 
-  Scenario: TC03 Kullanici amazonda Apple aratir
-    Given kullanici amazon anasayfaya gider
+  Scenario: TC06 Kullanici amazonda Apple aratir
+
     When arama kutusuna Apple yazip enter'a basar
     And Arama sonuclarinin Apple icerdigini test eder
     Then Sayfayi kapatir
