@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="59.842" tests="7" skipped="0" failures="1" errors="0">
+<testcase classname="US1001 Amazon Search" name="TC01 Kullanici amazonda Nutella aratir" time="19.65">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#twotabsearchtextbox&quot;}
+  (Session info: chrome=110.0.5481.100)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.1', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [970caf11fb9a5d6f90e155a3d1c24740, findElement {using=id, value=twotabsearchtextbox}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/k5/tn4cs92s1h3...}, goog:chromeOptions: {debuggerAddress: localhost:58883}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58883/devtoo..., se:cdpVersion: 110.0.5481.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 970caf11fb9a5d6f90e155a3d1c24740">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#twotabsearchtextbox"}
+  (Session info: chrome=110.0.5481.100)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.1', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [970caf11fb9a5d6f90e155a3d1c24740, findElement {using=id, value=twotabsearchtextbox}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/k5/tn4cs92s1h3...}, goog:chromeOptions: {debuggerAddress: localhost:58883}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58883/devtoo..., se:cdpVersion: 110.0.5481.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 970caf11fb9a5d6f90e155a3d1c24740
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source)
+	at stepdefinitions.AmazonStepdefinitions.arama_kutusuna_nutella_yazip_enter_a_basar(AmazonStepdefinitions.java:22)
+	at ✽.arama kutusuna Nutella yazip enter'a basar(file:///Users/ahmetbulutluoz/IdeaProjects/com.Team114_Cucumber/src/test/resources/features/US1001_amazonSearch.feature:7)
+]]>
+</failure>
+<system-out><![CDATA[
+Given kullanici amazon anasayfaya gider.....................................passed
+When arama kutusuna Nutella yazip enter'a basar.............................failed
+And Arama sonuclarinin Nutella icerdigini test eder.........................skipped
+Then Sayfayi kapatir........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="US1001 Amazon Search" name="TC03 Kullanici amazonda Apple aratir" time="5.509">
+<system-out><![CDATA[
+Given kullanici amazon anasayfaya gider.....................................passed
+When arama kutusuna Apple yazip enter'a basar...............................passed
+And Arama sonuclarinin Apple icerdigini test eder...........................passed
+Then Sayfayi kapatir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1003 Kullanici parametre ile arama yapabilir" name="TC07 Kullanici amazonda Java aratir" time="10.474">
+<system-out><![CDATA[
+Given kullanici amazon anasayfaya gider.....................................passed
+When arama kutusuna "Java" yazip enter'a basar..............................passed
+And Arama sonuclarinin "Java" icerdigini test eder..........................passed
+And 4 sn bekler.............................................................passed
+Then Sayfayi kapatir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1005 Pozitif login testi" name="TC10 Gecerli kullanici adi ve sifre ile sisteme giris yapilabilmeli" time="7.159">
+<system-out><![CDATA[
+Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then login linkine tiklar...................................................passed
+And username olarak "qdGecerliUsername" girer...............................passed
+And password olarak "qdGecerliPassword" girer...............................passed
+And login butonuna basar....................................................passed
+Then basarili olarak giris yapildigini test eder............................passed
+And Sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1006 gecersiz bilgilerle sayfaya girilemez" name="TC11 gecerli username ve gecersiz password ile giris yapilamaz" time="5.755">
+<system-out><![CDATA[
+Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then login linkine tiklar...................................................passed
+And username olarak "qdGecerliUsername" girer...............................passed
+And password olarak "qdGecersizPassword" girer..............................passed
+And login butonuna basar....................................................passed
+Then giris yapilamadigini test eder.........................................passed
+And Sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1006 gecersiz bilgilerle sayfaya girilemez" name="TC12 gecersiz username ve gecerli password ile giris yapilamaz" time="5.676">
+<system-out><![CDATA[
+Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then login linkine tiklar...................................................passed
+And username olarak "qdGecersizUsername" girer..............................passed
+And password olarak "qdGecerliPassword" girer...............................passed
+And login butonuna basar....................................................passed
+Then giris yapilamadigini test eder.........................................passed
+And Sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1006 gecersiz bilgilerle sayfaya girilemez" name="TC13 gecersiz username ve gecersiz password ile giris yapilamaz" time="5.494">
+<system-out><![CDATA[
+Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then login linkine tiklar...................................................passed
+And username olarak "qdGecersizUsername" girer..............................passed
+And password olarak "qdGecersizPassword" girer..............................passed
+And login butonuna basar....................................................passed
+Then giris yapilamadigini test eder.........................................passed
+And Sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,6 +1,6 @@
 Feature: US1005 Pozitif login testi
 
-  @pozitif
+  @pozitif @smoke
   Scenario: TC10 Gecerli kullanici adi ve sifre ile sisteme giris yapilabilmeli
 
     Given kullanici "qdUrl" anasayfaya gider

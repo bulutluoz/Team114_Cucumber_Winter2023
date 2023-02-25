@@ -4,6 +4,7 @@ Feature: US1003 Kullanici parametre ile arama yapabilir
   Background:
     Given kullanici amazon anasayfaya gider
 
+    @smoke
   Scenario: TC07 Kullanici amazonda Java aratir
 
 
@@ -12,7 +13,7 @@ Feature: US1003 Kullanici parametre ile arama yapabilir
     And 4 sn bekler
     Then Sayfayi kapatir
 
-
+  @amazon
   Scenario:  TC08 Kullanici amazonda Nutella aratir
 
     When arama kutusuna "Nutella" yazip enter'a basar

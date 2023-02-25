@@ -1,4 +1,4 @@
-@negatif
+@negatif @smoke
 Feature: US1006 gecersiz bilgilerle sayfaya girilemez
 
   Scenario: TC11 gecerli username ve gecersiz password ile giris yapilamaz

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="20.575" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="US1001 Amazon Search" name="TC01 Kullanici amazonda Nutella aratir" time="8.16">
+<system-out><![CDATA[
+Given kullanici amazon anasayfaya gider.....................................passed
+When arama kutusuna Nutella yazip enter'a basar.............................passed
+And Arama sonuclarinin Nutella icerdigini test eder.........................passed
+Then Sayfayi kapatir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1001 Amazon Search" name="TC02 Kullanici amazonda Samsung aratir" time="6.177">
+<system-out><![CDATA[
+Given kullanici amazon anasayfaya gider.....................................passed
+When arama kutusuna Samsung yazip enter'a basar.............................passed
+And Arama sonuclarinin Samsung icerdigini test eder.........................passed
+Then Sayfayi kapatir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1003 Kullanici parametre ile arama yapabilir" name="TC08 Kullanici amazonda Nutella aratir" time="6.144">
+<system-out><![CDATA[
+Given kullanici amazon anasayfaya gider.....................................passed
+When arama kutusuna "Nutella" yazip enter'a basar...........................passed
+And Arama sonuclarinin "Nutella" icerdigini test eder.......................passed
+Then Sayfayi kapatir........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
