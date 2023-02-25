@@ -9,3 +9,4 @@ Feature: US1005 Pozitif login testi
     And password olarak "qdGecerliPassword" girer
     And login butonuna basar
     Then basarili olarak giris yapildigini test eder
+    And Sayfayi kapatir
